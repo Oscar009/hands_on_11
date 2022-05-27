@@ -1,5 +1,7 @@
 #include "natNetwork.h"
 
-natNetwork::natNetwork(){
-    
+natNetwork::natNetwork()
+{
+    c = new component();
+    c->listNatNetworks();
 }

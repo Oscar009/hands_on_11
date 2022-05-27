@@ -6,6 +6,8 @@
 class natNetwork
 {
 
+    component *c;
+
 public:
     natNetwork();
 };
