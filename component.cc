@@ -17,7 +17,7 @@ component::component()
 void component::listNatNetworks()
 {
     cout << "Listing Nat Networks... " << endl;
-    int delay = 3;
+    int delay = 2;
 
     delay *= CLOCKS_PER_SEC;
 

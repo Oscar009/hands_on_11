@@ -2,6 +2,7 @@
 #define component_h
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -14,6 +15,9 @@ public:
     //metodos
 
     void listNatNetworks();
+    void createNatNetwork(string, string);
+    void startDHCP(string);
+    void addInstances(string, string*);
 };
 
 #endif

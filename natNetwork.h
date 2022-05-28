@@ -3,13 +3,15 @@
 
 #include "component.h"
 
+#include <string>
+
 class natNetwork
 {
 
     component *c;
 
 public:
-    natNetwork();
+    natNetwork(string, string, string*, int);
 };
 
 #endif
