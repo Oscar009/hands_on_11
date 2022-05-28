@@ -7,15 +7,16 @@ Use archives that already exists.
 ```
 g++ component.cc main.cc natNetwork.cc -o a.out
 ```
-<!---
+
 ## To run
 
-Fill in the fields for the VM configuration.
+Fill in the fields for the Nat Network configuration.
 
-./a.out \[nameVM\] \[ostypeVM\] \[numberOfCpus\] \[numberOfRamMemory\] \[numberOfVideoMemory\] \[numberForDiskSpace\] \[isoRoute\] \[AtrributeToSearch\] 
+./a.out \[nameNatNetwork\] \[domainNatNetwork\] \[listInstancesToAddNatNetwork\]
+
+Instances will be separated by space and there must already exists.
 
 For example:
 ```
-./a.out Ubuntu_linux Ubuntu_64 2 2048 12 20480 ~/Escritorio/ubuntu-20.04.4-desktop-amd64.iso Memory
+./a.out NATNetwork101 192.168.10.0/24 Ubuntu Ubuntu_linux
 ```
--->

@@ -16,8 +16,8 @@ public:
 
     void listNatNetworks();
     void createNatNetwork(string, string);
-    void startDHCP(string);
-    void addInstances(string, string*);
+    void startDHCPAndService(string);
+    void addInstances(string, string*, int);
 };
 
 #endif

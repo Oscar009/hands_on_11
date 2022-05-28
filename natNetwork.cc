@@ -5,6 +5,6 @@ natNetwork::natNetwork(string nameNetwork, string domainNetwork, string *instanc
     c = new component();
     c->listNatNetworks();
     c->createNatNetwork(nameNetwork, domainNetwork);
-    c->startDHCP(nameNetwork);
-    c->addInstances(nameNetwork, instances);
+    c->startDHCPAndService(nameNetwork);
+    c->addInstances(nameNetwork, instances, len);
 }
